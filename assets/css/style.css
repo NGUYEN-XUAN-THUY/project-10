@@ -121,7 +121,7 @@ a {
 .head__dot{
     position: absolute;
     top: 0;
-    left: -35px;
+    left: -45px;
 }
 .dot{
     display: flex;
@@ -130,8 +130,8 @@ a {
 .dot span{
     display: inline-block;
     margin: 5px;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: #3dbad970;
 }
