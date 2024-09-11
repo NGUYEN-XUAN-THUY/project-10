@@ -28,7 +28,6 @@ a {
   max-width: calc(100% - 48px);
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 }
 
 .btn {
@@ -45,6 +44,26 @@ a {
 .btn:hover {
   color: #fff;
   background: #1e8ad2;
+}
+.desc {
+  font-size: 1.6rem;
+  line-height: 1.67;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #8b8686;
+}
+
+.rectangle {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #000;
+  border-radius: 999px;
+}
+/* ================================================================================= */
+head {
+  position: relative;
 }
 .head__top {
   display: flex;
@@ -76,12 +95,10 @@ a {
   text-shadow: 0px 0px 1px #000;
   color: #000;
 }
-
 .head__bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
 }
 
 .head__left {
@@ -93,14 +110,6 @@ a {
   line-height: 1.67;
   margin-bottom: 20px;
 }
-.head__desc {
-  font-size: 1.6rem;
-  line-height: 1.67;
-  font-weight: 500;
-  margin-bottom: 30px;
-  color: #8b8686;
-}
-
 .head__btn {
   color: #fff;
   background: #1e8ad2;
@@ -118,20 +127,93 @@ a {
   object-fit: cover;
 }
 
-.head__dot{
-    position: absolute;
-    top: 0;
-    left: -45px;
+.head__dot {
+  position: absolute;
+  top: 120px;
+  left: -40px;
 }
-.dot{
-    display: flex;
-    align-items: center;
+.dot {
+  display: flex;
+  align-items: center;
 }
-.dot span{
-    display: inline-block;
-    margin: 5px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #3dbad970;
+.dot span {
+  display: inline-block;
+  margin: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #3dbad970;
+}
+
+.services {
+  margin-top: 150px;
+  position: relative;
+}
+
+.services__top {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.services__heading {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.67;
+}
+
+.services__rectangle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.services__desc {
+  margin-bottom: 50px;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background: #f6faff;
+}
+.services__dot {
+  position: absolute;
+  top: 515px;
+  right: 140px;
+}
+
+.services__bottom--img {
+  width: 938px;
+  height: 670px;
+  rotate: 21deg;
+  position: absolute;
+  top: 65px;
+  left: -90px;
+}
+
+.service__item{
+  background:#fff;
+  z-index: 1;
+  padding: 30px;
+}
+
+.services__heading2{
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.67;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.services__img{
+  width: 100px;
+  height: 100px;
+}
+.services__desc{
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+.services__bottom--btn{
+  text-align: center;
+  margin-top: 20px;
 }
