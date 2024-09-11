@@ -175,6 +175,7 @@ head {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   background: #f6faff;
+  cursor: pointer;
 }
 .services__dot {
   position: absolute;
@@ -191,29 +192,58 @@ head {
   left: -90px;
 }
 
-.service__item{
-  background:#fff;
+.service__item {
+  background: #fff;
   z-index: 1;
   padding: 30px;
 }
 
-.services__heading2{
+.services__heading2 {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.67;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.services__img{
+.services__img {
   width: 100px;
   height: 100px;
 }
-.services__desc{
+.services__desc {
   font-size: 1.8rem;
   line-height: 1.67;
 }
 
-.services__bottom--btn{
+.services__bottom--btn {
   text-align: center;
+  margin-top: 20px;
+}
+
+.leading {
+  margin-top: 100px;
+}
+.leading__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leading__left{
+  width: 45%;
+  margin-right: 100px;
+}
+.leading__img{
+  width: 500px;
+  height: 500px;
+}
+.leading__right{
+  width: 370px;
+}
+.leading__heading{
+  font-size: 3rem;
+  line-height: 1.67;
+  font-weight: 700;
+}
+.leading__rectangle{
+  margin-bottom: 20px;
   margin-top: 20px;
 }
