@@ -247,3 +247,51 @@ head {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+.download{
+  margin-top: 75px;
+  padding: 50px 0;
+}
+.download{
+  position: relative;
+}
+.download__body{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.download__left{
+  width: 30%;
+}
+.download__heading{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.download__rectangle{
+  margin-bottom: 30px;
+}
+
+.download__btn{
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.download__btn--arrow{
+  margin-left: 3px;
+  rotate: 90deg;
+}
+
+.download__img{
+  width: 500px;
+  height: 500px;
+}
+
+.download__dot{
+  position: absolute;
+  top: -100px;
+  right: -40px;
+}
